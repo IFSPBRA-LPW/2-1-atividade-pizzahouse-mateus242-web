@@ -1,13 +1,41 @@
 {
     font-family: Arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+    color: #FFFFFF; /*white*/
+    background: url("../images/pizza.jpg");
+    background-size: cover;
 
 }
 
 h1{
     font-size: 70px;
+    color: white;
+}
+
+#navbar{
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .logo{
     font-size: 24px;
-    font-weight
+    font-weight: bold;   
+    color: white;
+}
+
+li{
+    display: inline-block;
+    /* margin: 0 16x 0 16x; */
+    margin: 0 16px;
+
+}
+
+.link-menu{
+    color: white; 
+    text-decoration: none;
 }
